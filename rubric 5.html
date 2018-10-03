@@ -33,13 +33,24 @@
                }
             }	
 		
+		function myFunction() {
+    var x = "Color resolution: " + screen.pixelDepth + " bits per pixel";
+    document.getElementById("demo").innerHTML = x;
+}	
+		
+			
 	</script>
 </head>
 	
 
 <body>
 	<body style="background-color: #D53918" onload="alert('BOO!!! Page Loaded!')" />
+	
+<p>Click the button to display the color resolution of your screen.</p>
 
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
 	<h1>Happy Halloween</h1>
 
 <p>Now that fall is here lets celebrate Halloween.</p>
@@ -59,6 +70,8 @@
          <p> click the following button and see the result:</p>
          <input type="button" value="Get Cookie" onclick="ReadCookie()"/>
       </form>
+	
+	
 	
  
 </body>
