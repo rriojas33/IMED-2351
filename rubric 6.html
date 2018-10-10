@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<style>
+div {
+	font-size: 20px;
+    width: 820px;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 0;
+}
+	
+
+</style>	
+<meta charset="utf-8">
+
+<title>Untitled Document</title>
+	
+	<script src="rubric 6 js.js">
+	</script>
+	
+	
+</head>
+
+<body>
+	
+	<body style="background-color: #888CC1;">
+		
+		<h1 style="font-size: 400%;" align="center"> Welcome to my page</h1>
+		
+		<h2 style="text-align: center;">Rianna Riojas</h2>
+		<p style="text-align:center;"> <img src="images/me.JPG" alt name="me" height="202" width="190"></p>
+		
+		<div>
+		<p>Click anywhere inside this box.</p>
+			<p id="boxEvent"></p>
+			
+			<script>
+document.addEventListener("click", function(){
+    document.getElementById("boxEvent").innerHTML = "I was born in 1977, yeah I know.  I have lived in San Antonio most of my life.  I don't have kids just cats.  I wish to travel the world oneday.";
+});
+</script>
+
+
+		
+		</div>
+		<br>
+		
+		<div>
+		<h2>Some of my hobbies</h2>
+		<p id="hobbies"></p>	
+			<script>	
+				document.getElementById("hobbies").innerHTML= hobs;
+			</script>
+		</div>
+	
+	
+		<br>
+	<div>
+		<p id="hide" style="display:none">I'm currently in the Digital Media program at Northwest Vista</p>
+
+<button type="button" onclick="document.getElementById('hide').style.display='block'">Click Me!</button>
+
+		</div>
+		
+			
+			
+		
+		
+
+	
+	</body>
+	
+	
+	
+
+	
+</body>
+</html>
