@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+ 		 box-sizing: inherit;
+	}
+
+* 
+body {
+  margin: 0;
+}
+
+/* Style the header */
+#header {
+    background-color: #7848C7;
+    padding: 30px;
+    text-align: center;
+	font-size: 40px;
+	width:83.33%
+}
+
+
+
+#column {
+    float: left;
+    width: 83.33%;
+    padding: 15px;
+	clear: both;
+}
+#column2 {
+    float: left;
+    width: 83.33%;
+    padding: 15px;
+	clear: both;
+}
+
+/* Clear floats after the columns */
+#row {
+    float: left;
+	padding-left: 15px;
+    width: 83.33%;
+    clear: both;
+}
+
+
+    #row2 {
+		float: left ;
+    width: 83.33%;
+    clear: both;
+}
+   #details{width: 83.33%; height: 100%; background-color: cornflowerblue; text-align: center;}    
+ 
+
